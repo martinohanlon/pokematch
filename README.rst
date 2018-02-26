@@ -42,4 +42,4 @@ The sprites were obtained from  https://github.com/PokeAPI/sprites
 
 .. _guizero: https://lawsie.github.io/guizero
 
-.. |pokematch| image:: https://raw.githubusercontent.com/martinohanlon/BlueDot/master/docs/images/bluedotandroid_small.png
+.. |pokematch| image:: pokematch.png
