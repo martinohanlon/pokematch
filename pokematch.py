@@ -93,7 +93,7 @@ def get_random_sprite():
     return sprite_path
 
 def start_game():
-    timer.value = "10"
+    timer.value = "60"
     timer.repeat(1000, countdown)
     score.value = "0"
     menu_window.hide()

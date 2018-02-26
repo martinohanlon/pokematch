@@ -33,7 +33,7 @@ Raspberry Pi / MacOS / Linux ::
 Windows ::
 
     cd pokematch
-    python3 pokematch.py
+    python pokematch.py
 
 Sprites
 -------
@@ -43,3 +43,8 @@ The sprites were obtained from  https://github.com/PokeAPI/sprites
 .. _guizero: https://lawsie.github.io/guizero
 
 .. |pokematch| image:: pokematch.png
+
+Problems
+--------
+
+It looks awful on the Mac because TkInter on the Mac doesnt support PNG or transparency, so they have to be converted to GIFs on the fly.
