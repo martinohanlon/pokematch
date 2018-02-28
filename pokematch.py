@@ -1,9 +1,10 @@
+import os
+import sys
 from guizero import App, Box, Text, Picture, PushButton
 from random import choice, randint, shuffle
 from time import sleep
-from PIL import Image
-import os
-import sys
+if sys.platform == "darwin":
+    from PIL import Image
 
 def match(chosen):
     if chosen:

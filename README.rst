@@ -14,9 +14,13 @@ Raspberry Pi / Linux::
 
     sudo pip3 install guizero
 
-MacOS / Windows::
+Windows::
 
     pip3 install guizero
+
+MacOS also requires ``pillow``, due to it being unable to open PNGs.
+
+    pip3 install guizero pillow
 
 Clone the pokematch repository::
 
