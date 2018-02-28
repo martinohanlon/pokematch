@@ -18,7 +18,7 @@ Windows::
 
     pip3 install guizero
 
-MacOS also requires ``pillow``, due to it being unable to open PNGs.
+MacOS also requires ``pillow``, due to it being unable to open PNGs::
 
     pip3 install guizero pillow
 
